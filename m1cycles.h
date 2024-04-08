@@ -217,7 +217,7 @@ struct performance_counters_holder
         return result;
     }
     
-    void clear()
+    inline void clear()
     {
         cycles.clear();
         branches.clear();
